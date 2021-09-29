@@ -1,0 +1,12 @@
+
+ ---
+ author: {{NAME}}
+ date: {{TODAY}}
+ title: {{FILE}}
+ tags:
+ ---
+
+
+ ~~~python
+
+ ~~~

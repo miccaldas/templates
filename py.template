@@ -1,0 +1,17 @@
+"""Module Docstring"""
+from loguru import logger
+
+fmt = "{time} - {name} - {level} - {message}"
+logger.add("info.log", level="INFO", format=fmt, backtrace=True, diagnose=True)
+logger.add("error.log", level="ERROR", format=fmt, backtrace=True, diagnose=True)
+
+
+@logger.catch
+def {{FILE}}():
+    """"""
+
+
+
+
+if __name__ == "__main__":
+    {{FILE}}()
