@@ -10,6 +10,11 @@ logger.add("../logs/error.log", level="ERROR", format=fmt, backtrace=True, diagn
 
 subprocess.run(['isort', __file__])
 
+def type_watch(source, value):
+    return"type({})".format(source), type(value)
+
+    
+snoop.install(watch_extras=[type_watch])
 
 @logger.catch
 @snoop
