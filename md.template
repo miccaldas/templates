@@ -1,12 +1,5 @@
-
- ---
- author: {{NAME}}
- date: {{TODAY}}
- title: {{FILE}}
- tags:
- ---
-
-
- ~~~python
-
- ~~~
+---
+title:
+date: {{TODAY}}
+mainfont: Iosevka
+---
